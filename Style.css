@@ -1,0 +1,55 @@
+.bp {
+  display: block;
+  margin: 40px auto 0;
+}
+.bp__stalk {
+  fill: none;
+  stroke-width: 10;
+}
+.bp__flower {
+  opacity: 0;
+}
+.bp__flower--b {
+  stroke-width: 1.2;
+  stroke: white;
+}
+.bp__fill--blue {
+  fill: #21BFF0;
+}
+.bp__fill--orange {
+  fill: #F79421;
+}
+.bp__fill--green {
+  fill: #73A62E;
+}
+.bp__fill--beige {
+  fill: #BDB17D;
+}
+.bp__stroke--green {
+  stroke: #73A62E;
+}
+.bp__stroke--green-light {
+  stroke: #8BC53F;
+}
+.bp__stroke--green-lighter {
+  stroke: #B7F564;
+}
+
+body {
+  text-align: center;
+}
+
+.link {
+  display: inline-block;
+  margin: 60px auto;
+  padding: 1em 2em;
+  font: bold 1em sans-serif;
+  text-decoration: none;
+  color: #333;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+  transition: 0.3s;
+}
+.link:hover {
+  background: #eee;
+}
